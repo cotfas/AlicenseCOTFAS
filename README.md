@@ -31,6 +31,12 @@ For BEng - BSc - Bachelor Diploma, in 2008 -> 2012, we had this classes:
 - Android App with chat functionality and list products, created in Java;
 - Client version to manage connectivity, orders, products, chat, created in MFC C++ Windows;
 
+## The Sequence Diagram
+-𝘛𝘩𝘦 𝘴𝘺𝘯𝘤𝘩𝘳𝘰𝘯𝘪𝘴𝘢𝘵𝘪𝘰𝘯 𝘢𝘭𝘨𝘰𝘳𝘪𝘵𝘩𝘮 𝘧𝘰𝘳 𝘵𝘩𝘦 𝘰𝘧𝘧𝘭𝘪𝘯𝘦 𝘢𝘯𝘥 𝘰𝘯𝘭𝘪𝘯𝘦 𝘤𝘰𝘯𝘯𝘦𝘤𝘵𝘦𝘥 𝘤𝘭𝘪𝘦𝘯𝘵𝘴 𝘵𝘰 𝘵𝘩𝘦 𝘊++ 𝘴𝘦𝘳𝘷𝘦𝘳.
+
+![_syncAlgoritm_SequenceDiagram i](https://github.com/user-attachments/assets/9d67b7de-8ae2-44e0-b4f7-aedba33f50d7)
+
+
 ## Here are some pictures with the project:
 
 ![1server+windowsClient](https://github.com/user-attachments/assets/85d85b5e-cfa8-4ab1-a872-311bfa62d096)
