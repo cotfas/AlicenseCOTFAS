@@ -19,6 +19,18 @@ For BEng - BSc - Bachelor Diploma, in 2008 -> 2012, we had this classes:
 - Modeling, Simulation, and Digital Signal Processing.
 ```
 
+## Windows Desktop MFC Client App functionality:
+```
+-𝘔𝘢𝘯𝘢𝘨𝘪𝘯𝘨 𝘵𝘩𝘦 𝘱𝘳𝘰𝘥𝘶𝘤𝘵𝘴 𝘸𝘪𝘵𝘩 𝘵𝘩𝘦 𝘜𝘐 𝘞𝘪𝘯𝘥𝘰𝘸𝘴 𝘔𝘍𝘊 𝘤𝘭𝘪𝘦𝘯𝘵. 
+-𝘊𝘰𝘯𝘯𝘦𝘤𝘵𝘪𝘯𝘨 𝘵𝘰 𝘊++ 𝘴𝘦𝘳𝘷𝘦𝘳 𝘰𝘷𝘦𝘳 𝘛𝘊𝘗 𝘱𝘳𝘰𝘵𝘰𝘤𝘰𝘭.
+-𝘙𝘦𝘢𝘭 𝘵𝘪𝘮𝘦 𝘤𝘩𝘢𝘵 𝘰𝘷𝘦𝘳 𝘛𝘊𝘗 𝘤𝘰𝘯𝘯𝘦𝘤𝘵𝘪𝘷𝘪𝘵𝘺 𝘰𝘷𝘦𝘳 𝘞𝘪𝘯𝘥𝘰𝘸𝘴 𝘤𝘭𝘪𝘦𝘯𝘵 𝘢𝘯𝘥 𝘈𝘯𝘥𝘳𝘰𝘪𝘥 𝘑𝘢𝘷𝘢 𝘈𝘱𝘱.
+```
+
+## Tech stack:
+- Server created in C++ using TCP protocol and using MySQL database;
+- Android App with chat functionality and list products, created in Java;
+- Client version to manage connectivity, orders, products, chat, created in MFC C++ Windows;
+
 ## Here are some pictures with the project:
 
 ![1server+windowsClient](https://github.com/user-attachments/assets/85d85b5e-cfa8-4ab1-a872-311bfa62d096)
