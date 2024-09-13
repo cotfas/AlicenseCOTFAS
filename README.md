@@ -19,7 +19,8 @@ For BEng - BSc - Bachelor Diploma, in 2008 -> 2012, we had this classes:
 - Modeling, Simulation, and Digital Signal Processing.
 ```
 
-Here are some pictures with the project:
+## Here are some pictures with the project:
+
 ![1server+windowsClient](https://github.com/user-attachments/assets/85d85b5e-cfa8-4ab1-a872-311bfa62d096)
 
 ![2accounts](https://github.com/user-attachments/assets/3b23ccb1-5790-4f5d-b81d-dd15f5473f8b)
@@ -29,4 +30,6 @@ Here are some pictures with the project:
 ![4comenzi](https://github.com/user-attachments/assets/b77eef6e-31e6-4d76-974c-4ceb38c2611c)
 
 ![5add_account](https://github.com/user-attachments/assets/faeb6359-3313-47a8-91e8-c87e4ddb5f32)
+
+👉 Repository is licensed under MIT, you can do whatever you want with the source-code as long as you provide credits to it.
 
