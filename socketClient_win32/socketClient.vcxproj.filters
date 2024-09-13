@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="TCPSocket">
+      <UniqueIdentifier>{2e5759e6-d2f0-4ac8-b7dd-810e861dc567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CGridListCtrlEx">
+      <UniqueIdentifier>{a161884e-d2f2-4ca7-b540-2bdcb309d8a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MultilineListCtrl">
+      <UniqueIdentifier>{982f8108-d032-43bb-a01b-87fd070882a2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CGridListCtrlEx\CGridColumnTrait.h">
+      <Filter>CGridListCtrlEx</Filter>
+    </ClInclude>
+    <ClInclude Include="CGridListCtrlEx\CGridColumnTraitCombo.h">
+      <Filter>CGridListCtrlEx</Filter>
+    </ClInclude>
+    <ClInclude Include="CGridListCtrlEx\CGridColumnTraitDateTime.h">
+      <Filter>CGridListCtrlEx</Filter>
+    </ClInclude>
+    <ClInclude Include="CGridListCtrlEx\CGridColumnTraitEdit.h">
+      <Filter>CGridListCtrlEx</Filter>
+    </ClInclude>
+    <ClInclude Include="CGridListCtrlEx\CGridColumnTraitImage.h">
+      <Filter>CGridListCtrlEx</Filter>
+    </ClInclude>
+    <ClInclude Include="CGridListCtrlEx\CGridColumnTraitText.h">
+      <Filter>CGridListCtrlEx</Filter>
+    </ClInclude>
+    <ClInclude Include="CGridListCtrlEx\CGridColumnTraitVisitor.h">
+      <Filter>CGridListCtrlEx</Filter>
+    </ClInclude>
+    <ClInclude Include="CGridListCtrlEx\CGridListCtrlEx.h">
+      <Filter>CGridListCtrlEx</Filter>
+    </ClInclude>
+    <ClInclude Include="CGridListCtrlEx\CGridListCtrlGroups.h">
+      <Filter>CGridListCtrlEx</Filter>
+    </ClInclude>
+    <ClInclude Include="CGridListCtrlEx\CGridRowTrait.h">
+      <Filter>CGridListCtrlEx</Filter>
+    </ClInclude>
+    <ClInclude Include="CGridListCtrlEx\CGridRowTraitText.h">
+      <Filter>CGridListCtrlEx</Filter>
+    </ClInclude>
+    <ClInclude Include="CGridListCtrlEx\CGridRowTraitVisitor.h">
+      <Filter>CGridListCtrlEx</Filter>
+    </ClInclude>
+    <ClInclude Include="CGridListCtrlEx\CGridRowTraitXP.h">
+      <Filter>CGridListCtrlEx</Filter>
+    </ClInclude>
+    <ClInclude Include="CGridListCtrlEx\ViewConfigSection.h">
+      <Filter>CGridListCtrlEx</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPSocket\ObjMutex.h">
+      <Filter>TCPSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPSocket\ObjThread.h">
+      <Filter>TCPSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPSocket\OneInstance.h">
+      <Filter>TCPSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPSocket\TCPSocket.h">
+      <Filter>TCPSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Conex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\settingsDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\socketClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\socketClientDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="res\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MultilineListCtrl\MultiLineListBox.h">
+      <Filter>MultilineListCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\accountsDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\productsDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\comandsDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CGridListCtrlEx\CGridColumnTraitCombo.cpp">
+      <Filter>CGridListCtrlEx</Filter>
+    </ClCompile>
+    <ClCompile Include="CGridListCtrlEx\CGridColumnTraitDateTime.cpp">
+      <Filter>CGridListCtrlEx</Filter>
+    </ClCompile>
+    <ClCompile Include="CGridListCtrlEx\CGridColumnTraitEdit.cpp">
+      <Filter>CGridListCtrlEx</Filter>
+    </ClCompile>
+    <ClCompile Include="CGridListCtrlEx\CGridColumnTraitImage.cpp">
+      <Filter>CGridListCtrlEx</Filter>
+    </ClCompile>
+    <ClCompile Include="CGridListCtrlEx\CGridColumnTraitText.cpp">
+      <Filter>CGridListCtrlEx</Filter>
+    </ClCompile>
+    <ClCompile Include="CGridListCtrlEx\CGridListCtrlEx.cpp">
+      <Filter>CGridListCtrlEx</Filter>
+    </ClCompile>
+    <ClCompile Include="CGridListCtrlEx\CGridListCtrlGroups.cpp">
+      <Filter>CGridListCtrlEx</Filter>
+    </ClCompile>
+    <ClCompile Include="CGridListCtrlEx\CGridRowTraitText.cpp">
+      <Filter>CGridListCtrlEx</Filter>
+    </ClCompile>
+    <ClCompile Include="CGridListCtrlEx\CGridRowTraitXP.cpp">
+      <Filter>CGridListCtrlEx</Filter>
+    </ClCompile>
+    <ClCompile Include="CGridListCtrlEx\ViewConfigSection.cpp">
+      <Filter>CGridListCtrlEx</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPSocket\ObjMutex.cpp">
+      <Filter>TCPSocket</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPSocket\ObjThread.cpp">
+      <Filter>TCPSocket</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPSocket\TCPSocket.cpp">
+      <Filter>TCPSocket</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Conex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\settingsDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\socketClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\socketClientDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MultilineListCtrl\MultiLineListBox.cpp">
+      <Filter>MultilineListCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\accountsDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\productsDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\comandsDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mainICON.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\socketClient.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icon2.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icon3.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icon4.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icon5.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icon6.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icon7.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icon8.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="res\socketClient.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+            <LinearLayout android:focusable="true"
+                    android:focusableInTouchMode="true" android:layout_width="0px"
+                    android:layout_height="0px" />
+      
+            
+            
+            <EditText
+            android:id="@+id/editText1"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:hint="@string/hintIP"
+            android:text="@string/connectIP" >
+        </EditText>
+
+
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:hint="@string/hintPort"
+            android:text="@string/connectPort" />
+    </TableRow>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="fill_parent"
+       	android:layout_height="40dp"
+        android:hint="@string/hintUserName"
+        android:text="@string/connectUserName" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:hint="@string/hintPass"
+        android:text="@string/connectPass"
+        android:inputType="textPassword" >
+    </EditText>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/textButonRegister" />
+
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/autoConnect" />
+
+    </TableRow>
+   
+    
+    
+    
+    
+    
+    <RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <ScrollView
+    android:id="@+id/ScrollViewSettings"  
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+     >  
+    
+
+   	<TextView
+   	    android:id="@+id/TextViewLogSettings"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="fill_parent"
+   	    android:text="@string/log" />
+
+    </ScrollView>  
+</RelativeLayout>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</LinearLayout>

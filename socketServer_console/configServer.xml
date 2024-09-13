@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<socket>
+    <module name="mysql">
+        <param name="dbIP" value="127.0.0.1" />
+        <param name="dbPORT" value="3306" />
+        <param name="dbUSER" value="root" />
+        <param name="dbPASS" value='' />
+        <param name="dbNAME" value="test" />
+    </module>
+    <module name="server">
+        <param name="serverPORT" value="3000" />
+        <param name="autoListening" value="true" />
+    </module>
+</socket>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <EditText
+        android:id="@+id/EditTextName"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:hint="@string/hintName"
+        android:text="@string/connectName" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextUserName"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:hint="@string/hintUserName"
+        android:text="@string/connectUserName" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:hint="@string/hintPass"
+        android:inputType="textPassword"
+        android:text="@string/connectPass" />
+
+    <EditText
+        android:id="@+id/editTextBot"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:hint="@string/hintBot"
+        android:text="@string/connectBot" />
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="@string/textButonRegister" />
+
+    </TableRow>
+
+    <RelativeLayout
+  
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <ScrollView
+    android:id="@+id/ScrollViewRegister"  
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    >  
+    
+
+   	<TextView
+   	    android:id="@+id/TextViewLogRegister"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="fill_parent"
+   	    android:text="@string/log" />
+
+    </ScrollView>  
+</RelativeLayout>
+</LinearLayout>

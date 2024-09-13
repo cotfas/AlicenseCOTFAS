@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{756BDEDF-EF47-45E7-A073-0B38B9E815C1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>socketClient</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <SourcePath>$(ProjectDir)\Source\;$(SourcePath)</SourcePath>
+    <LibraryPath>$(ProjectDir)\tinyXMLLIB\TICPP\lib\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <SourcePath>$(ProjectDir)\Source\;$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="CGridListCtrlEx\CGridColumnTrait.h" />
+    <ClInclude Include="CGridListCtrlEx\CGridColumnTraitCombo.h" />
+    <ClInclude Include="CGridListCtrlEx\CGridColumnTraitDateTime.h" />
+    <ClInclude Include="CGridListCtrlEx\CGridColumnTraitEdit.h" />
+    <ClInclude Include="CGridListCtrlEx\CGridColumnTraitImage.h" />
+    <ClInclude Include="CGridListCtrlEx\CGridColumnTraitText.h" />
+    <ClInclude Include="CGridListCtrlEx\CGridColumnTraitVisitor.h" />
+    <ClInclude Include="CGridListCtrlEx\CGridListCtrlEx.h" />
+    <ClInclude Include="CGridListCtrlEx\CGridListCtrlGroups.h" />
+    <ClInclude Include="CGridListCtrlEx\CGridRowTrait.h" />
+    <ClInclude Include="CGridListCtrlEx\CGridRowTraitText.h" />
+    <ClInclude Include="CGridListCtrlEx\CGridRowTraitVisitor.h" />
+    <ClInclude Include="CGridListCtrlEx\CGridRowTraitXP.h" />
+    <ClInclude Include="CGridListCtrlEx\ViewConfigSection.h" />
+    <ClInclude Include="MultilineListCtrl\MultiLineListBox.h" />
+    <ClInclude Include="res\resource.h" />
+    <ClInclude Include="Source\accountsDlg.h" />
+    <ClInclude Include="Source\comandsDlg.h" />
+    <ClInclude Include="Source\Conex.h" />
+    <ClInclude Include="Source\productsDlg.h" />
+    <ClInclude Include="Source\settingsDlg.h" />
+    <ClInclude Include="Source\socketClient.h" />
+    <ClInclude Include="Source\socketClientDlg.h" />
+    <ClInclude Include="Source\stdafx.h" />
+    <ClInclude Include="TCPSocket\ObjMutex.h" />
+    <ClInclude Include="TCPSocket\ObjThread.h" />
+    <ClInclude Include="TCPSocket\OneInstance.h" />
+    <ClInclude Include="TCPSocket\TCPSocket.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CGridListCtrlEx\CGridColumnTraitCombo.cpp" />
+    <ClCompile Include="CGridListCtrlEx\CGridColumnTraitDateTime.cpp" />
+    <ClCompile Include="CGridListCtrlEx\CGridColumnTraitEdit.cpp" />
+    <ClCompile Include="CGridListCtrlEx\CGridColumnTraitImage.cpp" />
+    <ClCompile Include="CGridListCtrlEx\CGridColumnTraitText.cpp" />
+    <ClCompile Include="CGridListCtrlEx\CGridListCtrlEx.cpp" />
+    <ClCompile Include="CGridListCtrlEx\CGridListCtrlGroups.cpp" />
+    <ClCompile Include="CGridListCtrlEx\CGridRowTraitText.cpp" />
+    <ClCompile Include="CGridListCtrlEx\CGridRowTraitXP.cpp" />
+    <ClCompile Include="CGridListCtrlEx\ViewConfigSection.cpp" />
+    <ClCompile Include="MultilineListCtrl\MultiLineListBox.cpp" />
+    <ClCompile Include="Source\accountsDlg.cpp" />
+    <ClCompile Include="Source\comandsDlg.cpp" />
+    <ClCompile Include="Source\Conex.cpp" />
+    <ClCompile Include="Source\productsDlg.cpp" />
+    <ClCompile Include="Source\settingsDlg.cpp" />
+    <ClCompile Include="Source\socketClient.cpp" />
+    <ClCompile Include="Source\socketClientDlg.cpp" />
+    <ClCompile Include="TCPSocket\ObjMutex.cpp" />
+    <ClCompile Include="TCPSocket\ObjThread.cpp" />
+    <ClCompile Include="TCPSocket\TCPSocket.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\icon1.ico" />
+    <None Include="res\icon2.ico" />
+    <None Include="res\icon3.ico" />
+    <None Include="res\icon4.ico" />
+    <None Include="res\icon5.ico" />
+    <None Include="res\icon6.ico" />
+    <None Include="res\icon7.ico" />
+    <None Include="res\icon8.ico" />
+    <None Include="res\mainICON.ico" />
+    <None Include="res\socketClient.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="res\socketClient.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

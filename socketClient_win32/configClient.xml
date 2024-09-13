@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<socket>
+    <module name="socketClient">
+        <param name="ID_IP" value="127.0.0.1" />
+        <param name="ID_PORT" value="3000" />
+        <param name="ID_USERNAME" value="vlad" />
+        <param name="ID_PASSWORD" value="vlad" />
+        <param name="autoEnableListen" value="true" />
+        <param name="autoEnableChat" value="true" />
+    </module>
+    <module name="mainForm">
+        <param name="mainRectBottom" value="664" />
+        <param name="mainRectTop" value="187" />
+        <param name="mainRectLeft" value="0" />
+        <param name="mainRectRight" value="1021" />
+        <param name="mainMaximized" value="false" />
+    </module>
+</socket>

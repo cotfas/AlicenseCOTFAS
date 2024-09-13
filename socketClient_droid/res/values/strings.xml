@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Welcome to SocketClient!</string>
+    <string name="app_name">SocketClient</string>
+    <string name="settingsTitle">Settings</string><string name="registerTitle">Register new account</string><string name="productsTitle">Products</string><string name="quantityTitle" >Cantitate</string><string name="hintIP">Connect to IP</string>
+    <string name="hintPort">Connecting PORT</string>
+    <string name="hintPass">Password</string>
+    <string name="hintUserName">User name</string><string name="hintName">Your name</string><string name="hintBot">Enter the code below: </string>
+    <string name="connectIP"></string>
+    <string name="connectPort"></string>
+	<string name="connectUserName" ></string><string name="connectPass"></string><string name="connectName"></string><string name="connectBot" /><string name="log"></string>
+    
+    <string name="autoConnect">Auto connect?</string>
+    <string name="textButonProducts">Products</string><string name="textButonConnect">Press to Connect</string>
+    
+    
+    
+    
+    <string name="textButonRegister">Register</string>
+    <string name="textButonSendCommand">Send command</string><string name="connectionStatus">OFFLINE</string>
+    <string name="connectedName"></string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+</resources>

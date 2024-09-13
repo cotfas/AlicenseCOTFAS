@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textViewConnStatsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="Connection status" />
+
+        <TextView
+            android:id="@+id/textViewConnectionStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/connectionStatus"
+            android:textColor="#ff0000" />
+
+        <Button
+            android:id="@+id/idButtonSendCommand"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/textButonSendCommand" />
+    </RelativeLayout>
+    
+    
+    
+    
+   <RelativeLayout
+      android:id="@+id/relativeLayout2"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent" > 
+    
+    
+    
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/relativeLayout4">
+        <LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical" >
+	
+        <RelativeLayout
+        android:id="@+id/relativeLayout11"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+         <TextView
+            android:id="@+id/textViewProducts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Products" />     
+            </RelativeLayout>
+        <RelativeLayout
+        android:id="@+id/relativeLayout12"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border" >
+          <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Produs" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_toLeftOf="@+id/textView3"
+            android:text="Categorie" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="" />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_toRightOf="@+id/textView3"
+            android:text="Stoc" />
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" 
+            android:text="Pret" />   
+            </RelativeLayout>
+                      
+        <GridView
+            android:id="@+id/gridViewProductsList"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/textViewProducts"
+            android:background="@drawable/border"
+            android:numColumns="1" >
+        </GridView>
+        </LinearLayout>
+    </RelativeLayout>
+    
+     <RelativeLayout
+         android:id="@+id/relativeLayout4"
+         android:layout_width="fill_parent"
+         android:layout_height="170dp"
+         android:layout_above="@+id/relativeLayout23" >
+
+
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout21"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textViewCommands"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="Commands" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout22"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativeLayout21"
+                android:background="@drawable/border" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Produs" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="50dp"
+                    android:layout_toLeftOf="@+id/textView3"
+                    android:text="Categorie" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="Stoc" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_toRightOf="@+id/textView3"
+                    android:text="Pret" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="Cantitate" />
+            </RelativeLayout>			
+            <GridView
+                android:id="@+id/gridViewCommandsList"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@+id/relativeLayout23"
+                android:layout_below="@+id/relativeLayout22"
+                android:background="@drawable/border"
+                android:numColumns="1" >
+            </GridView>
+            
+    	</RelativeLayout>
+	     <RelativeLayout
+	        android:id="@+id/relativeLayout23"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" 
+	        android:layout_alignParentBottom="true">
+            <TextView
+                   android:id="@+id/textView6"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_toLeftOf="@+id/textViewTotal"
+                   android:text="Total " />
+            <TextView
+                   android:id="@+id/textViewTotal"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentRight="true"
+                   android:text="0" />
+             </RelativeLayout>
+   </RelativeLayout>
+    
+    
+    
+    
+</LinearLayout>
