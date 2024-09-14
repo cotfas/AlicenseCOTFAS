@@ -1,11 +1,11 @@
 # AlicenseCOTFAS
-2012 university degree thesis project!
+📚 2012 university degree thesis project!
 
-I'm uploading this to the public for the sake of portfolio only.
+⚠️ I'm uploading this to the public for the sake of portfolio only.
 
-𝘓𝘪𝘤𝘦𝘯𝘴𝘦: 𝘐𝘮𝘱𝘭𝘦𝘮𝘦𝘯𝘵𝘦𝘥 𝘢 𝘔𝘶𝘭𝘵𝘪𝘱𝘭𝘢𝘵𝘧𝘰𝘳𝘮 𝘥𝘪𝘴𝘵𝘳𝘪𝘣𝘶𝘵𝘦𝘥 𝘴𝘺𝘴𝘵𝘦𝘮 𝘧𝘰𝘳 𝘥𝘢𝘵𝘢𝘣𝘢𝘴𝘦 𝘮𝘢𝘯𝘢𝘨𝘦𝘮𝘦𝘯𝘵 𝘪𝘯 𝘊++/𝘑𝘢𝘷𝘢.
+🎓 𝘓𝘪𝘤𝘦𝘯𝘴𝘦: 𝘐𝘮𝘱𝘭𝘦𝘮𝘦𝘯𝘵𝘦𝘥 𝘢 𝘔𝘶𝘭𝘵𝘪𝘱𝘭𝘢𝘵𝘧𝘰𝘳𝘮 𝘥𝘪𝘴𝘵𝘳𝘪𝘣𝘶𝘵𝘦𝘥 𝘴𝘺𝘴𝘵𝘦𝘮 𝘧𝘰𝘳 𝘥𝘢𝘵𝘢𝘣𝘢𝘴𝘦 𝘮𝘢𝘯𝘢𝘨𝘦𝘮𝘦𝘯𝘵 𝘪𝘯 𝘊++/𝘑𝘢𝘷𝘢.
 
-For BEng - BSc - Bachelor Diploma, in 2008 -> 2012, we had this classes:
+📍 For BEng - BSc - Bachelor Diploma, in 2008 -> 2012, we had this classes:
 ```
 - Programming, Data Structures, and Databases.
 - Electrotechnics, Special Mathematics, and Algorithms.
